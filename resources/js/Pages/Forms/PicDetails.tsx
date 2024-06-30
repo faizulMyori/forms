@@ -4,8 +4,8 @@ import { Label } from "@/Components/ui/label";
 export default function PicDetails() {
     return (
         <div id="pic-details">
-            <h4 className="mb-4">PIC Details</h4>
-
+            <div className="mb-4 font-bold">PIC Details</div>
+            <hr className="mb-4" />
             <div className="grid w-full max-w-sm items-center gap-1.5 mt-4">
                 <Label htmlFor="pic">Person In Charge</Label>
                 <Input id="pic" placeholder="Person In Charge" />

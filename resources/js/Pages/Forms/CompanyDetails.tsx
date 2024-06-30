@@ -4,25 +4,21 @@ import { Label } from "@/Components/ui/label";
 export default function CompanyDetails() {
     return (
         <div id="company-details">
-            <h4 className="mb-4">Company Details</h4>
+            <div className="mb-4 font-bold">Company Details</div>
+            <hr className="mb-4" />
             <div className="grid w-full max-w-sm items-center gap-1.5">
-                <Label htmlFor="cName">Company Name</Label>
-                <Input id="cName" placeholder="Company Name" />
+                <Label htmlFor="cName">Name</Label>
+                <Input id="cName" placeholder="Name" />
             </div>
 
             <div className="grid w-full max-w-sm items-center gap-1.5 mt-4">
-                <Label htmlFor="cAddress">Company Address</Label>
-                <Input id="cAddress" placeholder="Company Address" />
+                <Label htmlFor="cAddress">Address</Label>
+                <Input id="cAddress" placeholder="Address" />
             </div>
 
             <div className="grid w-full max-w-sm items-center gap-1.5 mt-4">
-                <Label htmlFor="cPhone">Company Phone</Label>
-                <Input type="tel" id="cPhone" placeholder="Company Phone" />
-            </div>
-
-            <div className="grid w-full max-w-sm items-center gap-1.5 mt-4">
-                <Label htmlFor="cFax">Company Fax</Label>
-                <Input type="tel" id="cFax" placeholder="Company Fax" />
+                <Label htmlFor="cPhone">Phone</Label>
+                <Input type="tel" id="cPhone" placeholder="Phone" />
             </div>
 
             <div className="grid w-full max-w-sm items-center gap-1.5 mt-4">
